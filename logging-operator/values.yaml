@@ -1,0 +1,24 @@
+image:
+  repository: banzaicloud/logging-operator
+  tag: latest
+  pullPolicy: Always
+
+rbac:
+  enabled: true
+
+tls:
+  enabled: false
+  secretName: ""
+  sharedKey: ""
+
+fluentbit:
+  enabled: true
+  namespace: ""
+
+fluentd:
+  enabled: true
+  namespace: ""
+
+grafana:
+  dashboard:
+    enabled: true
