@@ -1,4 +1,6 @@
-The metric server has been deployed. 
+** Please be patient while the chart is being deployed **
+
+The metric server has been deployed.
 {{ if .Values.apiService.create }}
 In a few minutes you should be able to list metrics using the following
 command:

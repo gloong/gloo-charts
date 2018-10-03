@@ -6,26 +6,17 @@ metadata:
   labels:
     app: {{ template "metrics-server.name" . }}
     chart: {{ template "metrics-server.chart" . }}
-    release: {{ .Release.Name }}
-    heritage: {{ .Release.Service }}
+    release: {{ .Release.Name | quote }}
+    heritage: {{ .Release.Service | quote }}
 rules:
   - apiGroups:
     - ""
     resources:
-    - pods
-    - nodes
-    - nodes/stats
-    - namespaces
+      - pods
+      - nodes
+      - namespaces
     verbs:
-    - get
-    - list
-    - watch
-  - apiGroups:
-    - "extensions"
-    resources:
-    - deployments
-    verbs:
-    - get
-    - list
-    - watch
+      - get
+      - list
+      - watch
 {{- end -}}

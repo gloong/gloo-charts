@@ -3,7 +3,7 @@ entries:
   logging-operator:
   - apiVersion: v1
     appVersion: 0.0.3
-    created: 2018-10-02T17:40:39.231095848+01:00
+    created: 2018-10-03T09:26:49.218677167+01:00
     description: Logging operator helm chart
     digest: ee45050ee23ff3f6eb3fb2de7bae4cc5fa69c4917cdeecf060bc7570b8aad435
     home: https://github.com/banzaicloud/logging-operator
@@ -18,29 +18,10 @@ entries:
     urls:
     - logging-operator/logging-operator-0.0.7.tgz
     version: 0.0.7
-  metrics-server:
-  - apiVersion: v1
-    appVersion: 0.3.0
-    created: 2018-10-02T17:40:39.232239257+01:00
-    description: Metrics Server is a cluster-wide aggregator of resource usage data.
-    digest: a40ca92d821ebdff399080697fa9ae07871a2b5a249b66336c11c5ac2d7d2b3b
-    engine: gotpl
-    home: https://github.com/kubernetes-incubator/metrics-server
-    keywords:
-    - metrics-server
-    maintainers:
-    - email: szander@banzaicloud.com
-      name: szander
-    name: metrics-server
-    sources:
-    - https://github.com/kubernetes-incubator/metrics-server
-    urls:
-    - metrics-server/metrics-server-0.0.4.tgz
-    version: 0.0.4
   mysql-operator:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: 2018-10-02T17:40:39.233455532+01:00
+    created: 2018-10-03T09:26:49.222652786+01:00
     description: A Helm chart for deploying the Oracle MySQL Operator
     digest: 50245ad339d150a9d98447857d1f90ccc78ddd789172ae3caf86fc59c6978f44
     maintainers:
@@ -50,4 +31,4 @@ entries:
     urls:
     - mysql-operator/mysql-operator-0.1.0.tgz
     version: 0.1.0
-generated: 2018-10-02T17:40:39.229453353+01:00
+generated: 2018-10-03T09:26:49.201738858+01:00
